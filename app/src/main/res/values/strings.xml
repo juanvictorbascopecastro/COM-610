@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">COM610</string>
+    <string name="facebook_application_id" translatable="false">2181431872043165</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb2181431872043165</string>
+
+    <string name="facebook_app_id" >6563363977027329</string>
+    <string name="fb_login_protocol_scheme">fb6563363977027329</string>
+    <string name="facebook_client_token">56789</string>
+
+</resources>
