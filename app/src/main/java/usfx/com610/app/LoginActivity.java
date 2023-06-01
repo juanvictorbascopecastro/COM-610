@@ -59,10 +59,8 @@ public class LoginActivity extends AppCompatActivity {
                     .createSignInIntentBuilder()
                     .setAvailableProviders(Arrays.asList(
                         new AuthUI.IdpConfig.EmailBuilder().build(),
-                        new AuthUI.IdpConfig.GoogleBuilder().build(),
-                        new AuthUI.IdpConfig.FacebookBuilder()
-                                .setPermissions(Arrays.asList("email", "public_profile"))
-                                .build()
+                        new AuthUI.IdpConfig.GoogleBuilder().build()
+
                             // new AuthUI.IdpConfig.TwitterBuilder().build()
                         ))
                     .setIsSmartLockEnabled(false).build();

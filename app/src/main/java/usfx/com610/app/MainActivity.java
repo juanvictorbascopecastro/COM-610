@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
+                        Toast.makeText(MainActivity.this, "Cession cerrada...", Toast.LENGTH_LONG).show();
                         MainActivity.this.finish();
                     }
                 });
