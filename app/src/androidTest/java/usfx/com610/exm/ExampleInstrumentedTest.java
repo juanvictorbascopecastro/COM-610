@@ -1,4 +1,4 @@
-package usfx.com610.app;
+package usfx.com610.exm;
 
 import android.content.Context;
 
@@ -19,8 +19,8 @@ import static org.junit.Assert.*;
 public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
-        // Context of the app under test.
+        // Context of the exm under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("usfx.com610.app", appContext.getPackageName());
+        assertEquals("usfx.com610.exm", appContext.getPackageName());
     }
 }

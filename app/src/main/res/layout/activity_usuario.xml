@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
     <fragment
         android:id="@+id/usuario_fragment"
-        android:name="usfx.com610.app.UsuarioFragment"
+        android:name="usfx.com610.exm.UsuarioFragment"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:clickable="true"

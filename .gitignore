@@ -16,3 +16,4 @@ local.properties
 /app/google-services.json
 caches
 /wrapper/dists
+/app/src/main/res/values

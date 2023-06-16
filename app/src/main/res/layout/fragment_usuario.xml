@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="usfx.com610.app.UsuarioFragment">
+    tools:context="usfx.com610.exm.UsuarioFragment">
     <LinearLayout
         android:orientation="vertical"
         android:gravity="center"

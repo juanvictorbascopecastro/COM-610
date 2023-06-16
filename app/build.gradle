@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'usfx.com610.app'
+    namespace 'usfx.com610.exm'
     compileSdk 33
 
     defaultConfig {
-        applicationId "usfx.com610.app"
+        applicationId "usfx.com610.exm"
         resConfigs "es"
         minSdk 24
         targetSdk 33

@@ -1,4 +1,4 @@
-package usfx.com610.app;
+package usfx.com610.exm;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -28,6 +28,7 @@ public class UsuarioFragment extends Fragment {
 
         nombre.setText(user.getDisplayName() + "\n" + user.getEmail());
         if(user.getPhotoUrl() != null) {
+            System.out.println(user.getPhotoUrl());
             RequestOptions options = new RequestOptions()
                     //.placeholder(R.drawable.prosgress)
                     .override(400, 400)

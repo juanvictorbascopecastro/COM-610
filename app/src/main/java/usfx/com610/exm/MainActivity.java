@@ -1,4 +1,4 @@
-package usfx.com610.app;
+package usfx.com610.exm;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

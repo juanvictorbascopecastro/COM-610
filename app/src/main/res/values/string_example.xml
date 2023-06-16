@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">COM610</string>
+    <string name="facebook_application_id" translatable="false">CODE</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fbCODE</string>
+
+    <string name="facebook_app_id" >...</string>
+    <string name="fb_login_protocol_scheme">fb...</string>
+    <string name="facebook_client_token">56789</string>
+
+</resources>
