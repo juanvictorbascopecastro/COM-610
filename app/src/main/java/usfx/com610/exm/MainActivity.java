@@ -15,10 +15,13 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private Button btn1, btnDatoUsuario;
+    private Button btn1, btnDatoUsuario, obtenerDatos;
+
     //  ./gradlew signinReport
     private TextView textView;
 
@@ -29,9 +32,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         textView = findViewById(R.id.textView);
         btn1 = findViewById(R.id.button);
         btnDatoUsuario = findViewById(R.id.btnDatoUsuario);
+        obtenerDatos = findViewById(R.id.obtenerDatos);
 
         btn1.setOnClickListener(this);
         btnDatoUsuario.setOnClickListener(this);
+        obtenerDatos.setOnClickListener(this);
         FirebaseUser usuario = FirebaseAuth.getInstance().getCurrentUser();
         if(usuario != null) {
             textView.setText("Nombre: " + usuario.getDisplayName() + " \nEmail:" + usuario.getEmail() + "\n"+ usuario.getProviderId());
@@ -57,6 +62,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnDatoUsuario:
                 lanzarDatosDeUsuario();
                 break;
+            case R.id.obtenerDatos:
+                Intent intent = new Intent(this, DataBaseActivity.class);
+                startActivity(intent);
+                break;
         }
     }
 
@@ -64,4 +73,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent( this, UsuarioActivity.class);
         startActivity(intent);
     }
+
+
 }
