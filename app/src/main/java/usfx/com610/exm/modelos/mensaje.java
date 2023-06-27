@@ -1,27 +1,37 @@
 package usfx.com610.exm.modelos;
 
 public class mensaje {
-    private String texto;
-    private String idUsuario;
+    private String mensaje;
+    private String nombre;
+    private String id;
 
-    public mensaje(String texto, String idUsuario) {
-        this.texto = texto;
-        this.idUsuario = idUsuario;
+    public mensaje(String mensaje, String nombre, String id) {
+        this.mensaje = mensaje;
+        this.nombre = nombre;
+        this.id = id;
     }
 
-    public String getTexto() {
-        return texto;
+    public String getMensaje() {
+        return mensaje;
     }
 
-    public void setTexto(String texto) {
-        this.texto = texto;
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
     }
 
-    public String getIdUsuario() {
-        return idUsuario;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setIdUsuario(String idUsuario) {
-        this.idUsuario = idUsuario;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }

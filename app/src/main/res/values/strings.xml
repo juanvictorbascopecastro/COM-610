@@ -7,4 +7,5 @@
     <string name="fb_login_protocol_scheme">fb6563363977027329</string>
     <string name="facebook_client_token">56789</string>
     <string name="msg_token_fmt">MESSAGUE_FIREBASE</string>
+    <string name="notification_channel_group_general">General</string>
 </resources>
